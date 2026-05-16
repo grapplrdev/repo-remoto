@@ -1,5 +1,11 @@
+import.java.util.Scanner;
 public class holaGit {
   public static void main(String[] args) {
-    System.out.println("Hola GitHub");
+    Scanner lector new  Scanner(System.in);
+    String nombre;
+    System.out.println("Ingresa tu nombre");
+    nombre = Scanner lector Netxline();
+    
+    System.out.println("Hola "+nombre);
   }
 }
